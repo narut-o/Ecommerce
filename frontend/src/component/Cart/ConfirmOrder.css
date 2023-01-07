@@ -1,0 +1,202 @@
+.confirm-order-page{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart-items{
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.cart-summary{
+   
+    padding: 3vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4vmax;
+    padding-left: 6vmax ;
+   
+    
+}
+.cart-summary>h4{
+    font: 500 1.8vmax Roboto;
+    color: rgba(0,0,0,0.8);
+    
+}
+.cart-summary>p{
+    font: 200 1vmax 'Gill sans';
+    
+}
+.order-items{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 6vmax;
+    max-height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.item{
+    height: 8vmax;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    margin-left: 2vmax;
+   
+}
+.item-image>img{
+    max-width: 40%;
+    max-height: 40%;
+   
+    
+}
+
+.item-name>h4{
+    font: 400 1.2vmax 'Gill sans';
+}
+.item-name>p{
+    font: 200 0.9vmax Roboto;
+}
+
+.shipping-info{
+   
+    width: 50%;
+    height: 100vh;
+   
+}
+.shipping-info-summary{
+    
+    padding: 3vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4vmax;
+    padding-left: 0;
+   
+   
+}
+.shipping-info-summary>h4{
+    font: 500 1.8vmax Roboto;
+    color: rgba(0,0,0,0.8);
+}
+.shipping-info-summary>p{
+    font: 200 1vmax 'Gill sans';
+
+}
+.address-box{
+    height: 12vmax;
+    display: flex;
+   
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 1vmax;
+   
+   
+}
+.address-name{
+   display: grid;
+   grid-template-rows: 2fr 1fr 1fr 1fr;
+  
+    
+}
+.address-name>h4{
+    font: 400 1.2vmax Roboto;
+}
+.address-name>p{
+    font: 300 1vmax 'Gill sans';
+}
+.price-break{
+    
+    height: 20vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+   
+    width: 50%;
+    box-sizing: border-box;
+   
+   
+    padding: 1vmax;
+
+   
+}
+
+.subtotal{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dotted rgba(0,0,0,0.2);
+}
+.subtotal-name{
+    
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+   
+}
+.subtotal-name>h4{
+    font: 400 1.2vmax Roboto;
+}
+.subtotal-name>p{
+    font: 300 1vmax 'Gill sans';
+}
+.subtotal-value{
+      
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+}
+.subtotal-value>h4{
+    font: 400 1.2vmax Roboto;
+}
+.subtotal-value>p{
+    font: 300 1vmax 'Gill sans';
+}
+
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vmax;
+}
+.total-price>h4{
+    font: 400 1vmax Roboto;
+    
+}
+
+.payment-btn{
+    border: none;
+    width: 100%;
+    height: 2.6vmax;
+    background-color: #048eff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+.payment-btn:hover{
+    background-color: #0372ce;
+}
+.edit-btn{
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 100%;
+    height: 2.6vmax;
+    background-color: white;
+    color: rgba(0,0,0,0.8);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+

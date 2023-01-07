@@ -1,0 +1,335 @@
+.banner{
+   background-color: white;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+    
+    color: white;
+}
+.sale-banner{
+   
+    height: 40vmax;
+   
+    
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px rgba(0,0, 0 ,0.1);
+    margin: 3vmax 2vmax;
+    
+
+}
+
+.brand-logo{
+  display: flex;
+  flex-direction: column;
+   
+  justify-content: center;
+  align-items: center;
+ 
+  width: 100%;
+  
+}
+.brand-logo>h4{
+    margin: 2vmax;
+
+    font: 400 3.5vmax Roboto;
+    color: black;
+}
+.brand-logo>p{
+color: rgba(0,0, 0 ,0.8);
+font: 300 2vmax 'Gill sans';
+
+}
+.brand-logo>button{
+    border: none;
+    margin: 4vmax;
+    padding: 1vmax 4vmax;
+    cursor: pointer;
+    font: 300 1vmax Roboto;
+    background-color: black;
+    border: 1px solid rgba(0,0, 0 ,0.1);
+    color: white;
+}
+.brand-logo>img{
+
+    max-height: 10%;
+
+}
+.sale-banner>img{
+    max-height: 100%;
+    border-radius: 0 2px 2px 0;
+    
+}
+.mid-banner{
+    
+    height: 30vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Tag-line{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Tag-line>h4{
+    color: white;
+    font: 400 2.6vmax Roboto;
+    margin: 3vmax;
+}
+.Tag-line>p{
+    color: white;
+    font: 100 1.5vmax 'Gill sans';
+}
+.Tag-line>button{
+    border: none;
+    width: 15vw;
+    padding:  1vmax 2vmax;
+    background-color: white;
+    font: 300 1vmax Roboto;
+    margin: 2vmax;
+}
+.mid-banner>img{
+    max-height: 100%;
+   
+}
+.bottom-banner{
+    height: 30vmax;
+    width: 100%;
+    display: flex;
+    margin: 2vmax 0;
+    flex-direction: row;
+    align-items: center;
+    
+   
+    
+}
+.main-product{
+    height: inherit;
+   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      width: 50%;
+    
+   
+}
+.main-product>img{
+ height: 90%;
+  
+  border-radius: 5px;
+  
+}
+.game-trailer{
+    width: 50%;
+    height: 90%;
+    border-radius: 5px;
+    border: none;
+    margin: 0 1vmax 0 0;
+   
+    
+  
+    
+}
+.category{
+    height: 12vmax;
+    box-shadow: 1px 1px 5px rgba(23, 126, 211, 0.1);
+    margin: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.all{
+    height: 10vmax;
+    width: 15vw ;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.all>h4{
+    color: white;
+    font: 300 1.8vmax 'Gill sans';
+}
+.smartphone{
+    
+    height: 10vmax;
+    width: 15vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0, 0 ,0.1);
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
+.smartphone:hover{
+    box-shadow: 1px 1px 5px rgba(0,0, 0 ,0.1);
+    transform: scaleX(1.01);
+}
+.smartphone>h4{
+    z-index: 2;
+    position: absolute;
+    font: 300 1.8vmax 'Gill sans';
+
+
+}
+.smartphone>img{
+    max-height: 100%;
+    max-width: 100%;
+   
+   
+}
+.home-appliance{
+    height: 10vmax;
+    width: 15vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0, 0 ,0.1);
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
+.home-appliance:hover{
+    box-shadow: 1px 1px 5px rgba(0,0, 0 ,0.1);
+    transform: scaleX(1.01);
+}
+.home-appliance>h4{
+    z-index: 2;
+    position: absolute;
+    font: 300 1.8vmax 'Gill sans';
+
+}
+.electronics
+{
+    height: 10vmax;
+    width: 15vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0, 0 ,0.1);
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
+.electronics:hover{
+    box-shadow: 1px 1px 5px rgba(0,0, 0 ,0.1);
+    transform: scaleX(1.01);
+}
+.electronics>h4{
+    z-index: 2;
+    position: absolute;
+    font: 300 1.8vmax 'Gill sans';
+}
+.banner>h1{
+    margin: 5vmax;
+    font-family: "Roboto";
+    font-size: 2.5vmax;
+    font-weight: 600;
+   
+}
+.banner>p{
+    font:300 1.4vmax "Lucida sans"
+}
+.banner>a>button{
+    margin-bottom: 5vmax;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    padding: 1vmax;
+    width: 9vmax;
+    font-family: 500 1vmax "Roboto";
+}
+.banner>a>button:hover{
+    background-color: rgba(255,255, 255 ,0);
+    color: white;
+}
+
+.homeHeading{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.4vmax;
+    border-bottom: 1px solid rgba(21,21, 21 ,0.5);
+    width: 20vmax;
+    padding: 1vmax;
+    margin: 5vmax auto;
+}
+.container{
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+.productCard{
+    width: 16vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    
+    transition: all 0.2s;
+    padding-bottom: 0.5vmax;
+
+  
+}
+.productCard>div{
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+}
+.productCard>img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1vmax;
+    
+}
+.productCard>div>span{
+   margin: 0.5vmax;
+   font:300 0.7vmax "Roboto";
+}
+.productCard>p{
+    font-family: Roboto;
+    font-size: 1.2vmax;
+    margin: 1vmax 0.5vmax;
+}
+.productCard>span{
+    margin: 0.5vmax;
+    color: black;
+    font: 400 1.2vmax Roboto;
+}
+.productCard:hover{
+    box-shadow: 0 0 5px rgba(15,15, 15 ,0.26);
+    transform: scaleX(1)
+}
+@media  screen and (max-width: 600px) {
+    .productCard>p{
+        font-size: 1.7vmax;
+    }
+    .productCard>div{
+        margin: 0vmax;
+        display: block;
+    }
+    .productCard>div>span{
+        margin: 0 0.5vmax;
+        font: 300 1vmax "Roboto";
+    }
+}

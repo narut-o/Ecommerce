@@ -1,0 +1,84 @@
+.my-orders-container{
+    background-color: #F0F3F6;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.my-orders-container>a{
+    text-decoration: none;
+}
+.order-container{
+   
+    height: auto;
+    min-height: 8vmax;
+    background-color: white;
+    width: 100%;
+  margin:  1vmax 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px  rgba(0,0,0, 0.2);
+padding: 0 4vmax;
+
+  
+  transition: all 0.2s;
+}
+.order-container:hover{
+    box-shadow: 1px 1px 10px  rgba(0,0,0, 0.2);
+}
+
+.order-item{
+   
+    height: 5vmax;
+    width: 90%;
+    margin: 0.4vmax;
+   
+  
+
+   
+  
+   
+}
+.name-qty{
+    display: flex;
+    flex-direction: column;
+    
+}
+.name-qty>h4{
+    font: 300 1.2vmax Roboto;
+    color: rgba(0,0,0, 0.8);
+}
+.name-qty>p{
+    margin-top: 1vmax;
+    font: 300 1vmax 'Gill sans';
+}
+.items{
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    height: 5vmax;
+   
+}
+.items>p{
+    font: 200 1vmax Roboto;
+    color: rgba(0,0,0, 0.6);
+
+}
+.status-rate>h5{
+    font: 300 1.1vmax 'Gill sans';
+   
+}
+.status-rate>p{
+    font: 300 1vmax 'Roboto';
+    color:#2873F0;
+    margin-top: 1vmax;
+}
+.items>img{
+ height: inherit;
+
+
+}

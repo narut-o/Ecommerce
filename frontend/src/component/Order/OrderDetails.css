@@ -1,0 +1,80 @@
+.order-details-container{
+    height: auto;
+    width: 100%;
+    background-color: #F0F3F6;
+    display: flex;
+    flex-direction: row;
+    
+  
+   
+}
+.address{
+   border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    height: auto;
+    width: 50%;
+    margin: 1vh;
+    padding: 2vmax;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+
+}
+.address>h4{
+    font: 400 1.2vmax Roboto;
+    padding: 1vmax 0;
+}
+.address>h5{
+    font: 400 1.1vmax Roboto;
+    padding: 1vh 0;
+}
+.address>p{
+    font: 300 1vmax 'Gill sans';
+   
+}
+.address>h5>p{
+    font: 300 1vmax 'Gill sans';
+}
+.item-order{
+ height: auto;
+ width: 50%;
+ background-color: white;
+ margin: 1vh;
+ border-radius: 4px;
+ box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+.item-det{
+  
+    height: 10vmax;
+    margin: 1vmax 0;
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr 1fr ;
+    padding: 1vmax;
+    align-items: center;
+}
+.item-det>img{
+   height: inherit;
+}
+.order-id{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.order-id>h4{
+    font: 300 1.2vmax Roboto;
+    margin: 0 1vmax;
+}
+.order-id>h6{
+    font: 300 1vmax Roboto;
+    display: flex;
+    margin: 1vmax;
+}
+.order-id>h6>p{
+    font: 300 1vmax 'Gill sans';
+    margin-left: 1vh;
+}
+.item-det>h5{
+    font: 300 1vmax Roboto;
+}
+.item-det>p{
+    font: 300 1.2vmax 'Gill sans';
+}
